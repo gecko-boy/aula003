@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header {
+    background-color:darkgoldenrod;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    box-shadow: 0 3px 10px 3px #888;
+}
+
+header h1 {
+    color: whitesmoke;
+}
+
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+
+header img {
+    width: 350px;
+    height: 350px;
+    border-radius: 160px;
+    object-fit: cover;
+    border: 10px solid rgba(0, 0, 59, 0.548);
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+main img {
+    width: 100%;
+}
+
+h2 {
+    color:rgba(0, 0, 59, 0.548);
+}
+
+a{
+    color:rgba(0, 0, 59, 0.548);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: darkgoldenrod;
+    text-align: center;
+    color:whitesmoke;
+    padding: 50px;
+    box-shadow: 0 -3px 10px 3px #888;
+}
+
+.caption{
+    color: #8888;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.info {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+    margin-top: -20px;
+}
